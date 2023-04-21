@@ -9,14 +9,14 @@ int main()
 
     printf("This program returns the values of x of a quadratic equation.\n");
     sleep(3);
-    printf("Note that if the value of \'a\' is equal to 0, it's not a quadratic equation\n");
+    printf("Note that if the value of \'a\' is equal to 0, it's not a quadratic equation.\n");
     sleep(3);
 
-    printf("Insert the value of \'a\'\n");
+    printf("\nInsert the value of \'a\': ");
     scanf("%f", &a);
-    printf("Insert the value of \'b\'\n");
+    printf("\nInsert the value of \'b\': ");
     scanf("%f", &b);
-    printf("Insert the value of \'c\'\n");
+    printf("\nInsert the value of \'c\': ");
     scanf("%f", &c);
 
     if(a != 0)
@@ -31,27 +31,29 @@ int main()
 
             if(x1 == x2)
              {
-                printf("There's one root for this equation.\n");
+                printf("\n\nThere's one root for this equation.\n");
                 sleep(2);
-                printf("The value of x is: %f \n", x1);
+                printf("The value of x is: %.4f \n", x1);
              }
             else
              {
-                printf("There's two roots for this equation.\n");
+                printf("\n\nThere's two roots for this equation.\n");
                 sleep(2);
-                printf("The value of x1 is %f and the value of x2 is %f", x1, x2);
+                printf("The value of x1 is: %.4f\nThe value of x2 is: %.4f", x1, x2);
              } 
          }
         else
          {
             sleep(2);
-            printf("There's no value for x in the set of real numbers.");
+            printf("\n\nThere's no value for x in the set of real numbers.");
          } 
      }
     else
      {
-        printf("This is not a quadratic equation");
+        printf("\n\nThis is not a quadratic equation");
      } 
+
+   getch();
 
   return 0;
 }
