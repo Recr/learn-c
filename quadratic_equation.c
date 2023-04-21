@@ -27,6 +27,7 @@ int main()
          {
             x1 = (- b + sqrt(delta))/ (2*a);
             x2 = (- b - sqrt(delta))/ (2*a);
+            sleep(2);
 
             if(x1 == x2)
              {
@@ -37,12 +38,14 @@ int main()
             else
              {
                 printf("There's two roots for this equation.\n");
+                sleep(2);
                 printf("The value of x1 is %f and the value of x2 is %f", x1, x2);
              } 
          }
         else
          {
-            printf("There's no value for x in the set of real numbers");
+            sleep(2);
+            printf("There's no value for x in the set of real numbers.");
          } 
      }
     else
