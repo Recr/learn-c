@@ -21,9 +21,9 @@ int main()
 
     if(a != 0)
      {
-        delta = b*b - (4 * a * c);
+        delta = pow(b, 2) - (4 * a * c);
 
-        if(delta != 0)
+        if(delta >= 0)
          {
             x1 = (- b + sqrt(delta))/ (2*a);
             x2 = (- b - sqrt(delta))/ (2*a);
