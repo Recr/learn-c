@@ -2,29 +2,19 @@
 #include <string.h>
 #include <stdlib.h>
 
-
-
-void
- clear (void)
- {
-   while ( getchar() != '\n' );
- }
-
-
 int main()
 {
 
- int x, player, cpu;
+ int x, player = 0, cpu = 0;
  char type, play = 'y';
 
 
  while(play == 'y')
  {
- srand(time(0));
- 
 
+ srand(time(0));
  x = rand() % (2 + 1 - 0) + 0;
- system("clear");
+ system("cls");                                //Must be "clear" on linux.
  printf("\nType Rock, Paper or Scisors: ");
  scanf("%c", &type);
  fflush(stdin);
@@ -55,7 +45,6 @@ int main()
   break;
 
 
-
   case 1: //paper
   if(type == 'R')
   {
@@ -76,7 +65,6 @@ int main()
    printf("\nYou haven't typed a valid type!");
   }
   break;
-
 
 
   case 2: //scissors
@@ -100,16 +88,15 @@ int main()
   }
   break;
  
-
  }
 
- printf("\n\nType y to continue: ");
- 
+ printf("\n\nType y to continue: "); 
  scanf("%s", &play);
- clear();
+ fflush(stdin);
  }
 
- printf("\n\nScoreboard\n");
+ system("cls");
+ printf("---Scoreboard---\n");
  printf("\nPlayer: %d\n", player);
  printf("CPU: %d\n", cpu);
 
