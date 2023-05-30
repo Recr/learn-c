@@ -15,7 +15,7 @@ int main()
 {
 
  int x, player, cpu;
- char type, play = 'y', buffer[64];
+ char type, play = 'y';
 
 
  while(play == 'y')
@@ -27,7 +27,7 @@ int main()
  system("clear");
  printf("\nType Rock, Paper or Scisors: ");
  scanf("%c", &type);
- fgets(buffer, 62, stdin);
+ fflush(stdin);
  type = toupper(type);
 
 
@@ -79,7 +79,7 @@ int main()
 
 
 
-  case 2: //scisors
+  case 2: //scissors
   if(type == 'R')
   {
     printf("\nYou won!");
