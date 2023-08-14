@@ -12,6 +12,6 @@ Here are some projects that I made in the process of learning programming logic 
 
 	A Rock Paper Scissors game.
 
-* Primes
+* <a href="https://github.com/Recr/learn-c/blob/main/prime_numbers/prime_numbers.c">Prime Numbers</a>
 	
-	A program that returns which number are primes in the specified range.
+	A program that returns which numbers are primes in the specified range.
