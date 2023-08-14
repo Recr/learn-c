@@ -8,9 +8,9 @@ Here are some projects that I made in the process of learning programming logic 
 
 # Projects:
 
-* [Quadratic Equation]([https://github.com/Recr/learn-c/blob/main/Quadratic_equation/quadratic_equation.c])
+* <a href="https://github.com/Recr/learn-c/blob/main/Rock_Paper_Scissors/game.c">Rock Paper Scissors</a>
 
-	A program that returns the roots of a quadratic equation if there are solution.
+	A Rock Paper Scissors game.
 
 * Primes
 	
