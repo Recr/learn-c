@@ -8,7 +8,7 @@ Here are some projects that I made in the process of learning programming logic 
 
 # Projects:
 
-* [Quadratic Equation](#Quadratic_equation)
+* [Quadratic Equation]([#Quadratic_equation](https://github.com/Recr/learn-c/blob/main/Quadratic_equation/quadratic_equation.c))
 
 	A program that returns the roots of a quadratic equation if there are solution.
 
